@@ -1,23 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Titan+One&display=swap');
 /*============================================================================*/
 :root{
-    --farba_textu: #F6F0EA;
-    --farba_pozadia:#090609;
-    --farba_primarna:#444C3C;
-    --farba_primarna_2:#5A6A58;
-    --farba_akcent:#673241;
-    --farba_akcent_2:#934058;
+    --farba_textu:          #F6F0EA;
+    --farba_pozadia:        #090609;
+    --farba_primarna:       #444C3C;
+    --farba_primarna_2:     #5A6A58;
+    --farba_primarna_3:     #232622;
+    --farba_akcent:         #673241;
+    --farba_akcent_2:       #934058;
 }
 /*============================================================================*/
 body{
     background-color: var(--farba_pozadia);
     color: var(--farba_textu);
     font-family: Nunito;
-    margin: 20px;
+    margin: 30px;
 }
 
 .header_logo{
     font-family: Nunito;
+    margin-bottom: 0px;
 }
 a{
     text-decoration: none;
@@ -28,25 +30,36 @@ header{
     border-bottom: var(--farba_primarna) 4px solid;
 }
 /*============================================================================*/
-
+.sekcia_1_div{
+    display: flex;
+    flex-direction: column;
+    border-bottom: var(--farba_primarna) 4px solid;
+}
 #pfp{
-    text-align: center;
+    margin-top: 15px;
     border: var(--farba_primarna) 4px solid;
     border-radius: 14px;
 }
-
 .hlavny_text_1{
     color: var(--farba_akcent);
     font-family: Titan One;
     font-size: 60px;
+    margin: 3px;
 }
-
 .hlavny_text_2{
     color: var(--farba_akcent_2);
     font-family: Titan One;
     font-size: 55px;
+    margin: 3px;
 }
-
+.text_o_mne{
+    background-color: var(--farba_primarna_3);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    border-top: var(--farba_primarna) solid 4px;
+}
+/*============================================================================*/
 
 
 
