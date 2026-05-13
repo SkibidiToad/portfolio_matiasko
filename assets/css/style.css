@@ -1,10 +1,24 @@
+:root{
+    --farba_textu: #F6F0EA;
+    --farba_pozadia:#090609;
+    --farba_primarna:#444C3C;
+    --farba_primarna_2:#5A6A58;
+    --farba_akcent:#673241;
+    --farba_akcent_2:#934058;
+}
 
 
 
 
+body{
+    background-color: var(--farba_pozadia);
+    color: var(--farba_textu);
+}
 
-
-
+a{
+    text-decoration: none;
+    color: var(--farba_textu);
+}
 
 
 
@@ -14,8 +28,6 @@
 
 
 @media (min-width: 768px) {
-
-
 body{
 background-color: #444C3C;
 }
