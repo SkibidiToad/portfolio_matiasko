@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Titan+One&display=swap');
+/*============================================================================*/
 :root{
     --farba_textu: #F6F0EA;
     --farba_pozadia:#090609;
@@ -6,18 +8,43 @@
     --farba_akcent:#673241;
     --farba_akcent_2:#934058;
 }
-
-
-
-
+/*============================================================================*/
 body{
     background-color: var(--farba_pozadia);
     color: var(--farba_textu);
+    font-family: Nunito;
+    margin: 20px;
 }
 
+.header_logo{
+    font-family: Nunito;
+}
 a{
     text-decoration: none;
     color: var(--farba_textu);
+    font-family: Nunito;
+}
+header{
+    border-bottom: var(--farba_primarna) 4px solid;
+}
+/*============================================================================*/
+
+#pfp{
+    text-align: center;
+    border: var(--farba_primarna) 4px solid;
+    border-radius: 14px;
+}
+
+.hlavny_text_1{
+    color: var(--farba_akcent);
+    font-family: Titan One;
+    font-size: 60px;
+}
+
+.hlavny_text_2{
+    color: var(--farba_akcent_2);
+    font-family: Titan One;
+    font-size: 55px;
 }
 
 
