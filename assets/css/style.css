@@ -105,7 +105,6 @@ a{
     padding: 8px;  
     text-align: center;
     border-bottom: var(--farba_primarna) 4px solid;
-
 }
 .o_mne_button{
     color: var(--farba_textu);
@@ -260,10 +259,39 @@ header{
     background-color: var(--farba_primarna);
     padding: 10px;
     border-radius: 20px;
+    border: var(--farba_primarna_2) solid 4px;
 }
 .ikona{
     border: var(--farba_pozadia) solid 8px;
     border-radius: 400px;
+}
+.o_mne_text_2{
+    margin-top: 20px;
+    padding: 8px;  
+    text-align: center;
+    border-bottom: var(--farba_primarna) 4px solid;
+}
+.zrucnosti{
+    text-align: center;
+    background-color: var(--farba_primarna);
+    padding: 0px;
+    border-radius: 20px;
+    border: var(--farba_primarna_2) solid 4px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ikona_2{
+    margin: 0px;
+}
+.zrucnosti_text{
+    padding-left: 10px;
+    margin: 4px;
+}
+.sekcia_zrucnosti{
+    margin-bottom: 80px;
 }
 /*============================================================================*/
 /*============================================================================*/
