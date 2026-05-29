@@ -8,8 +8,10 @@
     --farba_primarna_3:     #232622;
     --farba_akcent:         #673241;
     --farba_akcent_2:       #934058;
+    --farba_akcent_3:       #3a1e26;
     --farba_border:         #2e3329;
 }
+/*============================================================================*/
 /*============================================================================*/
     nav {
       padding: 10px 20px;
@@ -62,16 +64,7 @@
       }
     }
 /*============================================================================*/
-body{
-    background-color: var(--farba_pozadia);
-    color: var(--farba_textu);
-    font-family: Nunito;
-    margin: 0px;
-}
-.margin{
-    margin: 20px;
-}
-
+/*============================================================================*/
 .header_logo{
     font-family: Nunito;
     margin-bottom: 2px;
@@ -87,17 +80,7 @@ a{
     color: var(--farba_pozadia);
     font-family: Nunito;
 }
-a:hover {
-        color: var(--farba_pozadia);
-        background-color: var(--farba_primarna_2);
-}
-header{
-    background-color: var(--farba_primarna_3);
-    margin: 0px;
-    box-shadow: 2px 2px 20px black;
-    padding-bottom: 8px;
-    padding-top:8px;
-    }
+/*============================================================================*/
 /*============================================================================*/
 .sekcia_1_div{
     display: flex;
@@ -115,6 +98,7 @@ header{
     margin-bottom: 15px;
     border-top: var(--farba_primarna) solid 4px;
     border-bottom: var(--farba_primarna) 4px solid;
+    line-height: 28px;
 }
 .o_mne_text{
     margin-top: 60px;
@@ -158,6 +142,7 @@ header{
     padding-bottom: 35px;
     border: var(--farba_border) solid 4px;
     margin-bottom: 90px;
+    line-height: 28px;
 }
 .P_text_nadpis{
     text-align: center;
@@ -214,16 +199,6 @@ footer{
 }
 /*============================================================================*/
 /*============================================================================*/
-
-
-
-
-
-
-
-
-
-
 .border_bottom{
     border-bottom: 4px solid #373D35;
 }
@@ -233,6 +208,95 @@ footer{
     margin-left: 20px;
     margin-right: 20px;
 }
+body{
+    background-color: var(--farba_pozadia);
+    color: var(--farba_textu);
+    font-family: Nunito;
+    margin: 0px;
+}
+.margin{
+    margin: 20px;
+}
+a:hover {
+        color: var(--farba_pozadia);
+        background-color: var(--farba_primarna_2);
+}
+header{
+    background-color: var(--farba_primarna_3);
+    margin: 0px;
+    box-shadow: 2px 2px 20px black;
+    padding-bottom: 8px;
+    padding-top:8px;
+}
+.margin_footer{
+    margin-top: 100px;
+}
+/*============================================================================*/
+/*============================================================================*/
+.text_o_mne_nadpis{
+    margin-left: 0px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: Titan One;
+    letter-spacing: 3px;
+    color: var(--farba_akcent);
+    -webkit-text-stroke: 1px var(--farba_akcent_3);
+}
+#text_o_mne_1{
+    font-size: 60px;
+    margin: 0px;    
+}
+#text_o_mne_2{
+    font-size: 60px;
+    margin: 0px;
+    color: var(--farba_akcent_2);
+}
+#volam_sa{
+    font-size: large;
+    line-height: 32px;
+}
+.obrazky{
+    text-align: center;
+    background-color: var(--farba_primarna);
+    padding: 10px;
+    border-radius: 20px;
+}
+.ikona{
+    border: var(--farba_pozadia) solid 8px;
+    border-radius: 400px;
+}
+/*============================================================================*/
+/*============================================================================*/
+.text_portfolio{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: Titan One;
+    letter-spacing: 3px;
+    color: var(--farba_akcent);
+    -webkit-text-stroke: 1px var(--farba_akcent_3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -249,3 +313,13 @@ background-color: #444C3C;
 
 
 }
+
+
+
+
+
+
+
+
+
+
