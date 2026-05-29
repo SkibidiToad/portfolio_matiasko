@@ -11,6 +11,57 @@
     --farba_border:         #2e3329;
 }
 /*============================================================================*/
+    nav {
+      padding: 10px 20px;
+      position: relative;
+      margin-left: 2px;
+    }
+
+    /* Hamburger button */
+    .menu-btn {
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+      display: none;
+    }
+
+    /* Navigation links */
+    .menu {
+      display: flex;
+      gap: 20px;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+    }
+
+    /* Mobile styles */
+    @media (max-width: 768px) {
+      .menu-btn {
+        display: block;
+      }
+
+      .menu {
+        display: none;
+        flex-direction: column;
+        background: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+      }
+
+      .menu.active {
+        display: flex;
+      }
+
+      .menu a {
+        padding: 10px 20px;
+      }
+    }
+/*============================================================================*/
 body{
     background-color: var(--farba_pozadia);
     color: var(--farba_textu);
@@ -26,7 +77,9 @@ body{
     margin-bottom: 2px;
     font-size: x-large;
     padding: 5px;
-    padding-left: 20px;
+    padding-left: 30px;
+    margin-top: -42px;
+    margin-left: 30px;
 
 }
 a{
@@ -38,7 +91,9 @@ header{
     background-color: var(--farba_primarna_3);
     margin: 0px;
     box-shadow: 2px 2px 20px black;
-}
+    padding-bottom: 8px;
+    padding-top:8px;
+    }
 /*============================================================================*/
 .sekcia_1_div{
     display: flex;
@@ -46,30 +101,8 @@ header{
     border-bottom: var(--farba_primarna) 4px solid;
 }
 #pfp{
-    margin-top: 15px;
     border: var(--farba_primarna) 4px solid;
     border-radius: 14px;
-}
-.text_hlavny{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 20px;
-    padding: 20px;
-    background-color: var(--farba_primarna_3);
-    border-top: var(--farba_primarna) solid 4px;
-    border-bottom: var(--farba_primarna) 4px solid;
-}
-.hlavny_text_1{
-    color: var(--farba_akcent);
-    font-family: Titan One;
-    font-size: 60px;
-    margin: 3px;
-}
-.hlavny_text_2{
-    color: var(--farba_akcent_2);
-    font-family: Titan One;
-    font-size: 55px;
-    margin: 3px;
 }
 .text_o_mne{
     background-color: var(--farba_primarna_3);
@@ -80,6 +113,7 @@ header{
     border-bottom: var(--farba_primarna) 4px solid;
 }
 .o_mne_text{
+    margin-top: 60px;
     padding: 8px;  
     text-align: center;
     border-bottom: var(--farba_primarna) 4px solid;
@@ -94,7 +128,6 @@ header{
     margin-bottom: 15px;
     border-radius: 8px;
     display: inline-block;
-    margin-top: 100px;
     box-shadow: 2px 2px 20px black;
 }
 /*============================================================================*/
