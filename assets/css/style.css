@@ -87,6 +87,10 @@ a{
     color: var(--farba_pozadia);
     font-family: Nunito;
 }
+a:hover {
+        color: var(--farba_pozadia);
+        background-color: var(--farba_primarna_2);
+}
 header{
     background-color: var(--farba_primarna_3);
     margin: 0px;
@@ -182,6 +186,10 @@ header{
     display: inline-block;
     margin-top: 100px;
     box-shadow: 2px 2px 20px black;
+}
+#otazky:hover {
+        color: var(--farba_pozadia);
+        background-color: var(--farba_primarna_2);
 }
 /*============================================================================*/
 /*============================================================================*/
