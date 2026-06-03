@@ -10,26 +10,28 @@
 <body>
 <!--=========================================================================-->
 <!--=========================================================================-->
-<header class="page-header">
-    <nav class="page-header__nav">
-        <div class="page-header__menu-btn" id="menuBtn">☰</div>
-        <div class="page-header__menu" id="menu">
-            <a href="index.html">Domov</a>
-            <a href="o_mne.html">O mne</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="kontakt.html">Kontakt</a>
-        </div>
-    </nav>
-    <h1 class="page-header__logo">Matúš Matiaško</h1>
-</header>
-<script>
-    const menuBtn = document.getElementById("menuBtn");
-    const menu = document.getElementById("menu");
+    <header>
+        <nav>
+            <div class="menu-btn" id="menuBtn">
+              ☰
+            </div>
+            <div class="menu" id="menu">
+                <a href="index.html"><b>- Domov</b></a>
+                <a href="o_mne.html"><b>- O mne</b></a>
+                <a href="portfolio.html"><b>- Portfolio</b></a>
+                <a href="kontakt.html"><b>- Kontakt</b></a>
+            </div>
+        </nav>
+    <script>
+        const menuBtn = document.getElementById("menuBtn");
+        const menu = document.getElementById("menu");
 
-    menuBtn.addEventListener("click", () => {
-        menu.classList.toggle("active");
-    });
-</script>
+        menuBtn.addEventListener("click", () => {
+          menu.classList.toggle("active");
+        });
+    </script>
+    <h1 class="header_logo">Matúš Matiaško</h1>
+    </header>
 <!--=========================================================================-->
 <!--=========================================================================-->
 <p class="margin"></p>
