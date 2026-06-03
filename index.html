@@ -10,70 +10,66 @@
 <body>
 <!--=========================================================================-->
 <!--=========================================================================-->
-    <header>
-        <nav>
-            <div class="menu-btn" id="menuBtn">
-              ☰
-            </div>
-            <div class="menu" id="menu">
-                <a href="index.html"><b>- Domov</b></a>
-                <a href="o_mne.html"><b>- O mne</b></a>
-                <a href="portfolio.html"><b>- Portfolio</b></a>
-                <a href="kontakt.html"><b>- Kontakt</b></a>
-            </div>
-        </nav>
-    <script>
-        const menuBtn = document.getElementById("menuBtn");
-        const menu = document.getElementById("menu");
-
-        menuBtn.addEventListener("click", () => {
-          menu.classList.toggle("active");
-        });
-    </script>
-    <h1 class="header_logo">Matúš Matiaško</h1>
-    </header>
-<!--=========================================================================-->
-<!--=========================================================================-->
-<section class="margin">
-    <section id="sekcia_1">
-        <div class="sekcia_1_div">
-            <img id="pfp" src="assets/images/download20260403190215 2.png" alt="pfp">
-            <p class="text_o_mne">Som grafik digitálnych médií zameraný na  kresbu. Moja tvorba sa zaobera hlavne na estetiku a kresbu postav. Každý projekt beriem ako príležitosť zlepšiť sa v mojej práci a priniesť umenie na každý roh.</p>
+<header class="page-header">
+    <nav class="page-header__nav">
+        <div class="page-header__menu-btn" id="menuBtn">☰</div>
+        <div class="page-header__menu" id="menu">
+            <a href="index.html">Domov</a>
+            <a href="o_mne.html">O mne</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="kontakt.html">Kontakt</a>
         </div>
+    </nav>
+    <h1 class="page-header__logo">Matúš Matiaško</h1>
+</header>
+<script>
+    const menuBtn = document.getElementById("menuBtn");
+    const menu = document.getElementById("menu");
+
+    menuBtn.addEventListener("click", () => {
+        menu.classList.toggle("active");
+    });
+</script>
+<main>
+    <section class="section section--hero">
+        <img class="hero__image" src="assets/images/download20260403190215 2.png" alt="Portrét Matúša Matiaška">
+        <p class="hero__description">Som grafik digitálnych médií zameraný na kresbu. Moja tvorba sa zaoberá hlavne estetikou a kresbou postáv. Každý projekt beriem ako príležitosť zlepšiť sa v mojej práci a priniesť umenie na každý roh.</p>
     </section>
-</section>
-    <section class="flex_sekcia">
-        <p class="o_mne_text">Dozveďte sa o mne viac:</p>
-        <a class="o_mne_button" href="o_mne.html">O mne</a>
+    <section class="section section--cta">
+        <p class="section__text">Dozveďte sa o mne viac:</p>
+        <a class="hero__button" href="o_mne.html">O mne</a>
     </section>
 <!--=========================================================================-->
 <!--=========================================================================-->
-<section id="sekcia_2">
-    <div sekcia_2_div>
-        <p id="moja_tvorba"><b>Moja tvorba :</b></p>
-        <p class="border_bottom"></p>
-        <img class="text_obrazok" src="assets/images/2 2.png" alt="">
-        <p class="P_text_nadpis"><b>Reinterpretácia</b></p>
-        <p class="P_text">Reinterpretácia známeho obrazu Mona Lisa od umelca Leonarda Da Vinciho</p>
-        <img class="text_obrazok" src="assets/images/3 2.png" alt="">
-        <p class="P_text_nadpis"><b>Vianočná Pohľadnica</b></p>
-        <p class="P_text">Ilustrovaná strana vianočnej karty, vytvorená v programe Adobe Illustrátor</p>
-    </div>
-</section>
+<section class="section section--portfolio">
+        <h2 class="section-title">Moja tvorba</h2>
+        <div class="u-border-bottom"></div>
+        <article class="portfolio__item">
+            <img class="portfolio__image" src="assets/images/2 2.png" alt="Reinterpretácia Mona Lisy">
+            <h3 class="portfolio__item-title">Reinterpretácia</h3>
+            <p class="portfolio__item-description">Reinterpretácia známeho obrazu Mona Lisa od umelca Leonarda Da Vinciho.</p>
+        </article>
+        <article class="portfolio__item">
+            <img class="portfolio__image" src="assets/images/3 2.png" alt="Vianočná pohľadnica">
+            <h3 class="portfolio__item-title">Vianočná pohľadnica</h3>
+            <p class="portfolio__item-description">Ilustrovaná strana vianočnej karty, vytvorená v programe Adobe Illustrator.</p>
+        </article>
+    </section>
 <!--=========================================================================-->
 <!--=========================================================================-->
-<section class="flex_sekcia">
-    <a id="otazky" href="kontakt.html"><b>Máte otázky ?</b></a>
-    <p class="border_bottom"></p>
-</section>
+    <section class="section section--contact u-text-center">
+        <a class="hero__button" href="kontakt.html">Máte otázky?</a>
+    </section>
 <!--=========================================================================-->
 <!--=========================================================================-->
-    <footer>
-        <p id="copyright">© 2026 Matúš Matiaško. Všetky práva vyhradené.</p>
-        <class id="footer_imgs">
-            <img src="assets/images/image 8.png" alt="">
-            <img src="assets/images/instagram-logo-instagram-icon-transparent-free-png 2.png" alt="">
-        </class>
+    <footer class="footer">
+        <div class="footer__inner">
+            <p>© 2026 Matúš Matiaško. Všetky práva vyhradené.</p>
+            <div class="footer__links">
+                <img src="assets/images/image 8.png" alt="Odkaz na web">
+                <img src="assets/images/instagram-logo-instagram-icon-transparent-free-png 2.png" alt="Instagram ikona">
+            </div>
+        </div>
     </footer>
 <!--=========================================================================-->
 <!--=========================================================================-->

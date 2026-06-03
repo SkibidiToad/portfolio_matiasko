@@ -10,66 +10,74 @@
 <body>
 <!--=========================================================================-->
 <!--=========================================================================-->
-    <header>
-        <nav>
-            <div class="menu-btn" id="menuBtn">
-              ☰
-            </div>
-            <div class="menu" id="menu">
-                <a href="index.html"><b>- Domov</b></a>
-                <a href="o_mne.html"><b>- O mne</b></a>
-                <a href="portfolio.html"><b>- Portfolio</b></a>
-                <a href="kontakt.html"><b>- Kontakt</b></a>
-            </div>
-        </nav>
-    <script>
-        const menuBtn = document.getElementById("menuBtn");
-        const menu = document.getElementById("menu");
+<header class="page-header">
+    <nav class="page-header__nav">
+        <div class="page-header__menu-btn" id="menuBtn">☰</div>
+        <div class="page-header__menu" id="menu">
+            <a href="index.html">Domov</a>
+            <a href="o_mne.html">O mne</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="kontakt.html">Kontakt</a>
+        </div>
+    </nav>
+    <h1 class="page-header__logo">Matúš Matiaško</h1>
+</header>
+<script>
+    const menuBtn = document.getElementById("menuBtn");
+    const menu = document.getElementById("menu");
 
-        menuBtn.addEventListener("click", () => {
-          menu.classList.toggle("active");
-        });
-    </script>
-    <h1 class="header_logo">Matúš Matiaško</h1>
-    </header>
+    menuBtn.addEventListener("click", () => {
+        menu.classList.toggle("active");
+    });
+</script>
 <!--=========================================================================-->
 <!--=========================================================================-->
-<p class="margin"></p>
-<h1 class="text_portfolio"><b>Portfólio</b></h1>
-<p class="margin"></p>
-<section id="sekcia_2">
-    <div sekcia_2_div>
-        <p class="border_bottom"></p>
-        <img class="text_obrazok" src="assets/images/2 2.png" alt="">
-        <p class="P_text_nadpis"><b>Reinterpretácia</b></p>
-        <p class="P_text">Reinterpretácia známeho obrazu Mona Lisa od umelca Leonarda Da Vinciho</p>
-        <img class="text_obrazok" src="assets/images/3 2.png" alt="">
-        <p class="P_text_nadpis"><b>Vianočná Pohľadnica</b></p>
-        <p class="P_text">Ilustrovaná strana vianočnej karty, vytvorená v programe Adobe Illustrátor</p>
-        <img class="text_obrazok" src="assets/images/7 5.png" alt="">
-        <p class="P_text_nadpis"><b>Divadelný plagát</b></p>
-        <p class="P_text">Plagát na tému: Svetový Deň Divadla, vztvorený v programe Adobe Photoshop</p>
-        <img class="text_obrazok" src="assets/images/1 4.png" alt="">
-        <p class="P_text_nadpis"><b>Perspektíva</b></p>
-        <p class="P_text">Obraz perspektívy s témou nočného zimného mesta</p>
-        <img class="text_obrazok" src="assets/images/4 3.png" alt="">
-        <p class="P_text_nadpis"><b>Baletka</b></p>
-        <p class="P_text">Kresba diela: dancer with a bouquet of flowers od Edgara Degasa pomocou štetca</p>
-        <img class="text_obrazok" src="assets/images/6 3.png" alt="">
-        <p class="P_text_nadpis"><b>Herná karta</b></p>
-        <p class="P_text">Moja interptretácia hernej karty vytvorená v programe Adobe Illustrátor</p>
-        <p class="border_bottom"></p>
-    </div>
-</section>
-<p class="margin_footer"></p>
-<!--=========================================================================-->
-<!--=========================================================================-->
-    <footer>
-        <p id="copyright">© 2026 Matúš Matiaško. Všetky práva vyhradené.</p>
-        <class id="footer_imgs">
-            <img src="assets/images/image 8.png" alt="">
-            <img src="assets/images/instagram-logo-instagram-icon-transparent-free-png 2.png" alt="">
-        </class>
+<main>
+    <section class="section section--hero">
+        <h1 class="hero__title">Portfólio</h1>
+    </section>
+    <section class="section section--portfolio">
+        <div class="u-border-bottom"></div>
+        <article class="portfolio__item">
+            <img class="portfolio__image" src="assets/images/2 2.png" alt="Reinterpretácia Mona Lisy">
+            <h3 class="portfolio__item-title">Reinterpretácia</h3>
+            <p class="portfolio__item-description">Reinterpretácia známeho obrazu Mona Lisa od umelca Leonarda Da Vinciho.</p>
+        </article>
+        <article class="portfolio__item">
+            <img class="portfolio__image" src="assets/images/3 2.png" alt="Vianočná pohľadnica">
+            <h3 class="portfolio__item-title">Vianočná pohľadnica</h3>
+            <p class="portfolio__item-description">Ilustrovaná strana vianočnej karty, vytvorená v programe Adobe Illustrator.</p>
+        </article>
+        <article class="portfolio__item">
+            <img class="portfolio__image" src="assets/images/7 5.png" alt="Divadelný plagát">
+            <h3 class="portfolio__item-title">Divadelný plagát</h3>
+            <p class="portfolio__item-description">Plagát na tému Svetový deň divadla, vytvorený v programe Adobe Photoshop.</p>
+        </article>
+        <article class="portfolio__item">
+            <img class="portfolio__image" src="assets/images/1 4.png" alt="Perspektíva">
+            <h3 class="portfolio__item-title">Perspektíva</h3>
+            <p class="portfolio__item-description">Obraz perspektívy s témou nočného zimného mesta.</p>
+        </article>
+        <article class="portfolio__item">
+            <img class="portfolio__image" src="assets/images/4 3.png" alt="Baletka">
+            <h3 class="portfolio__item-title">Baletka</h3>
+            <p class="portfolio__item-description">Kresba diela Dancer with a Bouquet of Flowers od Edgara Degasa pomocou štetca.</p>
+        </article>
+        <article class="portfolio__item">
+            <img class="portfolio__image" src="assets/images/6 3.png" alt="Herná karta">
+            <h3 class="portfolio__item-title">Herná karta</h3>
+            <p class="portfolio__item-description">Moja interpretácia hernej karty vytvorená v programe Adobe Illustrator.</p>
+        </article>
+    </section>
+</main>
+    <footer class="footer">
+        <div class="footer__inner">
+            <p>© 2026 Matúš Matiaško. Všetky práva vyhradené.</p>
+            <div class="footer__links">
+                <img src="assets/images/image 8.png" alt="Odkaz na web">
+                <img src="assets/images/instagram-logo-instagram-icon-transparent-free-png 2.png" alt="Instagram ikona">
+            </div>
+        </div>
     </footer>
 <!--=========================================================================-->
 <!--=========================================================================-->
