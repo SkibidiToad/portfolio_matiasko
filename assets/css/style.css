@@ -370,7 +370,15 @@ button:hover {
 body{
 background-color: #444C3C;
 }
+.menu{
 
+}
+.header_logo{
+    font-size: xx-large;
+}
+header{
+    padding-top: 20px;
+}
 
 
 }
