@@ -13,73 +13,10 @@
 }
 /*============================================================================*/
 /*============================================================================*/
-    nav {
-      padding: 10px 20px;
-      position: relative;
-      margin-left: 2px;
-    }
 
-    /* Hamburger button */
-    .menu-btn {
-      font-size: 30px;
-      color: white;
-      cursor: pointer;
-      display: none;
-    }
-
-    /* Navigation links */
-    .menu {
-      display: flex;
-      gap: 20px;
-    }
-
-    .menu a {
-      color: white;
-      text-decoration: none;
-    }
-
-    /* Mobile styles */
-    @media (max-width: 768px) {
-      .menu-btn {
-        display: block;
-      }
-
-      .menu {
-        display: none;
-        flex-direction: column;
-        background: #333;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        padding: 10px 0;
-      }
-
-      .menu.active {
-        display: flex;
-      }
-
-      .menu a {
-        padding: 10px 20px;
-      }
-    }
 /*============================================================================*/
 /*============================================================================*/
-.header_logo{
-    font-family: Nunito;
-    margin-bottom: 2px;
-    font-size: x-large;
-    padding: 5px;
-    padding-left: 30px;
-    margin-top: -42px;
-    margin-left: 30px;
 
-}
-a{
-    text-decoration: none;
-    color: var(--farba_pozadia);
-    font-family: Nunito;
-}
 /*============================================================================*/
 /*============================================================================*/
 .sekcia_1_div{
@@ -118,46 +55,14 @@ a{
     box-shadow: 2px 2px 20px black;
 }
 
-/*============================================================================*/
-/*============================================================================*/
-#otazky{
-    color: var(--farba_textu);
-    text-align: center;
-    background-color: var(--farba_primarna_3);
-    border: 4px solid #373D35;
-    padding: 12px;
-    border-radius: 8px;
-    display: inline-block;
-    margin-top: 100px;
-    box-shadow: 2px 2px 20px black;
-}
-#otazky:hover {
-        color: var(--farba_pozadia);
-        background-color: var(--farba_primarna_2);
-}
 
 /*============================================================================*/
 /*============================================================================*/
 
 
-body{
-    background-color: var(--farba_pozadia);
-    color: var(--farba_textu);
-    font-family: Nunito;
-    margin: 0px;
-}
 
-a:hover {
-        color: var(--farba_pozadia);
-        background-color: var(--farba_primarna_2);
-}
-header{
-    background-color: var(--farba_primarna_3);
-    margin: 0px;
-    box-shadow: 2px 2px 20px black;
-    padding-bottom: 8px;
-    padding-top:8px;
-}
+
+
 
 /*============================================================================*/
 /*============================================================================*/
@@ -228,9 +133,6 @@ header{
 }
 /*============================================================================*/
 /*============================================================================*/
-
-/*============================================================================*/
-/*============================================================================*/
 input , textarea{
     background-color: var(--farba_pozadia);
     border: var(--farba_border) solid 4px;
@@ -274,37 +176,101 @@ button:hover {
 
 
 
-@media (min-width: 768px) {
-body{
-background-color: #444C3C;
-}
-}
-
-
-
-
-
-
-
-
-
-
 
 /*============================================================================*/
-/*================================KONTAKT======================================*/
+/*==================================NAV=======================================*/
 /*============================================================================*/
-
-
-
-
-
-
-
-
+nav {
+      padding: 10px 20px;
+      position: relative;
+      margin-left: 2px;
+    }
+.menu-btn {
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+      display: none;
+    }
+.menu {
+      display: flex;
+      gap: 20px;
+    }
+.menu a {
+      color: white;
+      text-decoration: none;
+    }
+a:hover {
+        color: var(--farba_pozadia);
+        background-color: var(--farba_primarna_2);
+}
+/*============================================================================*/
+@media (max-width: 768px) {
+.menu-btn {
+        display: block;
+    }
+.menu {
+        display: none;
+        flex-direction: column;
+        background: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+    }
+.menu.active {
+        display: flex;
+    }
+.menu a {
+        padding: 10px 20px;
+    }
+}
+/*============================================================================*/
+/*================================HEADER======================================*/
+/*============================================================================*/
+header{
+    background-color: var(--farba_primarna_3);
+    margin: 0px;
+    box-shadow: 2px 2px 20px black;
+    padding-bottom: 8px;
+    padding-top:8px;
+}
+.header_logo{
+    font-family: Nunito;
+    margin-bottom: 2px;
+    font-size: x-large;
+    padding: 5px;
+    padding-left: 30px;
+    margin-top: -42px;
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: var(--farba_pozadia);
+    font-family: Nunito;
+}
+/*============================================================================*/
+/*================================KONTAKT=====================================*/
+/*============================================================================*/
+#kontact-banner{
+    color: var(--farba_textu);
+    text-align: center;
+    background-color: var(--farba_primarna_3);
+    border: 4px solid #373D35;
+    padding: 12px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 100px;
+    box-shadow: 2px 2px 20px black;
+}
+#kontact-banner:hover {
+        color: var(--farba_pozadia);
+        background-color: var(--farba_primarna_2);
+}
 /*============================================================================*/
 /*==============================PORTFOLIO=====================================*/
 /*============================================================================*/
-.text_portfolio{
+.nadpis__portfolio{
     text-align: center;
     font-size: 60px;
     margin-top: 3px;
@@ -314,10 +280,6 @@ background-color: #444C3C;
     color: var(--farba_akcent);
     -webkit-text-stroke: 1px var(--farba_akcent_3);
 }
-
-
-
-
 .sekcia__portfolio{
     border-top: #191b19 solid 20px;
     background-color: var(--farba_primarna_3);
@@ -399,6 +361,42 @@ footer{
 .border_bottom{
     border-bottom: 4px solid #373D35;
 }
+/*============================================================================*/
+/*==================================BODY======================================*/
+/*============================================================================*/
+body{
+    background-color: var(--farba_pozadia);
+    color: var(--farba_textu);
+    font-family: Nunito;
+    margin: 0px;
+}
+/*============================================================================*/
+/*==================================MEDIA=====================================*/
+/*============================================================================*/
+@media (min-width: 768px) {
+body{
+background-color: #444C3C;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
 
 
 
