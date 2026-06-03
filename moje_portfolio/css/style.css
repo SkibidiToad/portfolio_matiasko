@@ -117,47 +117,7 @@ a{
     display: inline-block;
     box-shadow: 2px 2px 20px black;
 }
-/*============================================================================*/
-/*============================================================================*/
-#moja_tvorba{
-    padding-top: 40px;
-    text-align: center;
-    font-size: x-large;
-}
-#sekcia_2{
-    border-top: #191b19 solid 20px;
-    background-color: var(--farba_primarna_3);
-    padding: 20px;
-    margin: 0px;
-    border-bottom: #191b19 solid 20px;
-    box-shadow: 2px 2px 20px black;
-}
-.P_text{
-    text-align: center;
-    background-color: var(--farba_pozadia);
-    padding: 20px;
-    border-radius: 5px;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    border: var(--farba_border) solid 4px;
-    margin-bottom: 90px;
-    line-height: 28px;
-}
-.P_text_nadpis{
-    text-align: center;
-    align-items: center;
-    background-color: var(--farba_primarna);
-    padding: 10px;
-    border-radius: 5px;
-    margin-left: 15px;
-    margin-right: 15px;
-    box-shadow: 2px 2px 20px #181a18;
-}
-.text_obrazok{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 /*============================================================================*/
 /*============================================================================*/
 #otazky{
@@ -175,47 +135,18 @@ a{
         color: var(--farba_pozadia);
         background-color: var(--farba_primarna_2);
 }
+
 /*============================================================================*/
 /*============================================================================*/
-footer{
-    border-top: #191b19 solid 20px;
-    margin-top: 15px;
-    background-color: var(--farba_primarna_3);
-    box-shadow: -2px -2px 20px black;
-}
-#copyright{
-    color: var(--farba_textu);
-    text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 15px;
-}
-#footer_imgs{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-/*============================================================================*/
-/*============================================================================*/
-.border_bottom{
-    border-bottom: 4px solid #373D35;
-}
-.flex_sekcia{
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-    margin-right: 20px;
-}
+
+
 body{
     background-color: var(--farba_pozadia);
     color: var(--farba_textu);
     font-family: Nunito;
     margin: 0px;
 }
-.margin{
-    margin: 20px;
-}
+
 a:hover {
         color: var(--farba_pozadia);
         background-color: var(--farba_primarna_2);
@@ -227,9 +158,7 @@ header{
     padding-bottom: 8px;
     padding-top:8px;
 }
-.margin_footer{
-    margin-top: 100px;
-}
+
 /*============================================================================*/
 /*============================================================================*/
 .text_o_mne_nadpis{
@@ -299,16 +228,7 @@ header{
 }
 /*============================================================================*/
 /*============================================================================*/
-.text_portfolio{
-    text-align: center;
-    font-size: 60px;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    font-family: Titan One;
-    letter-spacing: 3px;
-    color: var(--farba_akcent);
-    -webkit-text-stroke: 1px var(--farba_akcent_3);
-}
+
 /*============================================================================*/
 /*============================================================================*/
 input , textarea{
@@ -354,33 +274,10 @@ button:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 768px) {
 body{
 background-color: #444C3C;
 }
-.menu{
-
-}
-.header_logo{
-    font-size: xx-large;
-}
-header{
-    padding-top: 20px;
-}
-
-
 }
 
 
@@ -388,6 +285,120 @@ header{
 
 
 
+
+
+
+
+
+/*============================================================================*/
+/*================================KONTAKT======================================*/
+/*============================================================================*/
+
+
+
+
+
+
+
+
+/*============================================================================*/
+/*==============================PORTFOLIO=====================================*/
+/*============================================================================*/
+.text_portfolio{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: Titan One;
+    letter-spacing: 3px;
+    color: var(--farba_akcent);
+    -webkit-text-stroke: 1px var(--farba_akcent_3);
+}
+
+
+
+
+.sekcia__portfolio{
+    border-top: #191b19 solid 20px;
+    background-color: var(--farba_primarna_3);
+    padding: 20px;
+    margin: 0px;
+    border-bottom: #191b19 solid 20px;
+    box-shadow: 2px 2px 20px black;
+}
+.portfolio__content{
+    padding-top: 40px;
+    text-align: center;
+    font-size: x-large;
+}
+.portfolio__item-text{
+    text-align: center;
+    background-color: var(--farba_pozadia);
+    padding: 20px;
+    border-radius: 5px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border: var(--farba_border) solid 4px;
+    margin-bottom: 90px;
+    line-height: 28px;
+    font-size: large;
+}
+.portfolio__item-nadpis{
+    text-align: center;
+    align-items: center;
+    background-color: var(--farba_primarna);
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 2px 2px 20px #181a18;
+    font-size: large;
+}
+.portfolio__obrazok{    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*============================================================================*/
+/*================================FOOTER======================================*/
+/*============================================================================*/
+.margin__footer{
+    margin-top: 100px;
+}
+footer{
+    border-top: #191b19 solid 20px;
+    margin-top: 15px;
+    background-color: var(--farba_primarna_3);
+    box-shadow: -2px -2px 20px black;
+}
+#footer__copyright{
+    color: var(--farba_textu);
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 15px;
+}
+#footer_images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/*============================================================================*/
+/*=================================RANDOM=====================================*/
+/*============================================================================*/
+.margin__medzera{
+    margin: 20px;
+}
+.flex__sekcia{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.border_bottom{
+    border-bottom: 4px solid #373D35;
+}
 
 
 
