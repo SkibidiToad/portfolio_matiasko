@@ -369,26 +369,44 @@ body{
 /*============================================================================*/
 /*==================================MEDIA=====================================*/
 /*============================================================================*/
-@media (min-width: 768px) {
-
-
-#pfp{
-    width: 500px;
+.hlavny_text__1{
+    font-family: Titan One;
+    margin: 0px;
+    color: var(--farba_akcent);
+    font-size: 50px;
 }
-.sekcia_uvod_div{
+.hlavny_text__2{
+    font-family: Titan One;
+    color: var(--farba_akcent_2);
+    margin: 0px;
+    font-size: 60px;
+}
+
+
+
+@media (min-width: 768px) {
+#pfp{
+    width: 550px;
+    margin: 20px;
+}
+.div__pfp_hlavny_text{
+    display: flex;
     flex-direction: row;
 }
-
-
-
-
-
-
-
-
-body{
-background-color: #444C3C;
+.hlavny_text__1{
+    font-size: 100px;
 }
+.hlavny_text__2{
+    font-size: 100px;
+}
+.sekcia_uvod_div{
+    margin: 40px;
+}
+
+
+
+
+
 }
 
 
