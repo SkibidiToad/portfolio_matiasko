@@ -14,7 +14,7 @@
 /*============================================================================*/
 /*============================================================================*/
 
-.sekcia_1_div{
+.sekcia_uvod_div{
     display: flex;
     flex-direction: column;
     border-bottom: var(--farba_primarna) 4px solid;
@@ -23,7 +23,7 @@
     border: var(--farba_primarna) 4px solid;
     border-radius: 14px;
 }
-.text_o_mne{
+.text_dozvedte_sa_viac{
     background-color: var(--farba_primarna_3);
     padding: 20px;
     border-radius: 20px;
@@ -32,13 +32,15 @@
     border-bottom: var(--farba_primarna) 4px solid;
     line-height: 28px;
 }
-.o_mne_text{
+/*============================================================================*/
+/*============================================================================*/
+.text_o_mne{
     margin-top: 60px;
     padding: 8px;  
     text-align: center;
     border-bottom: var(--farba_primarna) 4px solid;
 }
-.o_mne_button{
+.button_o_mne{
     color: var(--farba_textu);
     text-align: center;
     background-color: var(--farba_primarna_3);
@@ -49,8 +51,6 @@
     display: inline-block;
     box-shadow: 2px 2px 20px black;
 }
-
-
 /*============================================================================*/
 /*============================================================================*/
 
@@ -147,19 +147,7 @@ input , textarea{
 textarea{
     height: 200px;
 }
-button{
-    margin-top: 200px;
-    background-color: var(--farba_pozadia);
-    border: var(--farba_border) solid 4px;
-    color: var(--farba_textu);
-    width: 96%;
-    height: 40px;
-}
 
-button:hover {
-        color: var(--farba_pozadia);
-        background-color: var(--farba_primarna_2);
-}
 
 
 
@@ -356,6 +344,19 @@ footer{
 .border_bottom{
     border-bottom: 4px solid #373D35;
 }
+button{
+    margin-top: 200px;
+    background-color: var(--farba_pozadia);
+    border: var(--farba_border) solid 4px;
+    color: var(--farba_textu);
+    width: 96%;
+    height: 40px;
+}
+
+button:hover {
+        color: var(--farba_pozadia);
+        background-color: var(--farba_primarna_2);
+}
 /*============================================================================*/
 /*==================================BODY======================================*/
 /*============================================================================*/
@@ -369,8 +370,13 @@ body{
 /*==================================MEDIA=====================================*/
 /*============================================================================*/
 @media (min-width: 768px) {
-body{
-background-color: #444C3C;
+
+
+#pfp{
+    width: 500px;
+}
+.sekcia_uvod_div{
+    flex-direction: row;
 }
 
 
@@ -380,9 +386,9 @@ background-color: #444C3C;
 
 
 
-
-
-
+body{
+background-color: #444C3C;
+}
 }
 
 
