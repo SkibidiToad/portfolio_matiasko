@@ -246,12 +246,14 @@ a{
     margin: 0px;
     color: var(--farba_akcent);
     font-size: 50px;
+    margin-left: 10px;
 }
 .hlavny_text__2{
     font-family: Titan One;
     color: var(--farba_akcent_2);
     margin: 0px;
     font-size: 60px;
+    margin-left: 10px;
 }
 /*============================================================================*/
 /*================================KONTAKT=====================================*/
@@ -414,6 +416,9 @@ header{
         padding: 10px;
         border-radius: 10px;
 }
+main{
+    margin-top: 120px;
+}
 /*============================================================================*/
 #pfp{
     width: 450px;
@@ -443,6 +448,38 @@ header{
     padding: 30px;
 }
 /*============================================================================*/
+.text_o_mne{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.button_o_mne{
+    align-self: center;
+    font-size: 20px;
+    padding: 20px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+/*============================================================================*/
+.portfolio__flex{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 40px;
+}
+.portfolio__sekcia__1{
+    display: flex;
+    flex-direction: column;
+}
+.portfolio__sekcia__2{
+    display: flex;
+    flex-direction: column;
+}
+.portfolio__sekcia__3{
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 
