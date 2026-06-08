@@ -468,15 +468,7 @@ main{
     gap: 50px;
     padding: 40px;
 }
-.portfolio__sekcia__1{
-    display: flex;
-    flex-direction: column;
-}
-.portfolio__sekcia__2{
-    display: flex;
-    flex-direction: column;
-}
-.portfolio__sekcia__3{
+.portfolio__sekcia{
     display: flex;
     flex-direction: column;
 }
