@@ -13,7 +13,10 @@
 }
 /*============================================================================*/
 /*============================================================================*/
-
+.div__pfp_hlavny_text{
+    display: flex;
+    flex-direction: column;  
+}
 .sekcia_uvod_div{
     display: flex;
     flex-direction: column;
@@ -217,6 +220,11 @@ header{
     box-shadow: 2px 2px 20px black;
     padding-bottom: 8px;
     padding-top:8px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 .header_logo{
     font-family: Nunito;
@@ -379,6 +387,9 @@ body{
     font-family: Nunito;
     margin: 0px;
 }
+main{
+    margin-top: 100px;
+}
 /*============================================================================*/
 /*==================================MEDIA=====================================*/
 /*============================================================================*/
@@ -387,8 +398,22 @@ body{
 
 
 @media (min-width: 768px) {
-
-
+header{
+    padding: 20px;
+    font-size: 20px;
+}
+.menu{
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+.header_logo{
+    margin-left: 20px;
+}
+.menu a {
+        background-color: var(--farba_border);
+        padding: 10px;
+        border-radius: 10px;
+}
 /*============================================================================*/
 #pfp{
     width: 450px;
