@@ -176,7 +176,7 @@ nav {
     }
 .menu {
       display: flex;
-      gap: 20px;
+      gap:20px;
     }
 .menu a {
       color: white;
@@ -231,6 +231,19 @@ a{
     text-decoration: none;
     color: var(--farba_pozadia);
     font-family: Nunito;
+}
+/*============================================================================*/
+.hlavny_text__1{
+    font-family: Titan One;
+    margin: 0px;
+    color: var(--farba_akcent);
+    font-size: 50px;
+}
+.hlavny_text__2{
+    font-family: Titan One;
+    color: var(--farba_akcent_2);
+    margin: 0px;
+    font-size: 60px;
 }
 /*============================================================================*/
 /*================================KONTAKT=====================================*/
@@ -369,39 +382,46 @@ body{
 /*============================================================================*/
 /*==================================MEDIA=====================================*/
 /*============================================================================*/
-.hlavny_text__1{
-    font-family: Titan One;
-    margin: 0px;
-    color: var(--farba_akcent);
-    font-size: 50px;
-}
-.hlavny_text__2{
-    font-family: Titan One;
-    color: var(--farba_akcent_2);
-    margin: 0px;
-    font-size: 60px;
-}
+
 
 
 
 @media (min-width: 768px) {
+
+
+/*============================================================================*/
 #pfp{
-    width: 550px;
+    width: 450px;
     margin: 20px;
+    margin-left: 40px;
 }
 .div__pfp_hlavny_text{
     display: flex;
     flex-direction: row;
 }
+.div_hlavny_text{
+    display: flex;
+    flex-direction: column;
+}
 .hlavny_text__1{
-    font-size: 100px;
+    font-size: 120px;
 }
 .hlavny_text__2{
-    font-size: 100px;
+    font-size: 120px;
 }
 .sekcia_uvod_div{
     margin: 40px;
 }
+.text_dozvedte_sa_viac{
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+}
+/*============================================================================*/
+
+
+
+
 
 
 
