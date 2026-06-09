@@ -146,25 +146,7 @@
 }
 /*============================================================================*/
 /*============================================================================*/
-input , textarea{
-    background-color: var(--farba_pozadia);
-    border: var(--farba_border) solid 4px;
-    color: var(--farba_textu);
-    margin-left: 20px;
-    width: 96%;
-    height: 40px;
-}
-.text_kontakt{
-    text-align: center;
-    align-items: center;
-    background-color: var(--farba_primarna);
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 20px #181a18;
-}
-textarea{
-    height: 200px;
-}
+
 
 
 
@@ -288,6 +270,34 @@ a{
     color: var(--farba_pozadia);
     background-color: var(--farba_primarna_2);
 }
+.text_kontakt_nadpis{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: Titan One;
+    letter-spacing: 3px;
+    color: var(--farba_akcent);
+}
+input , textarea{
+    background-color: var(--farba_pozadia);
+    border: var(--farba_border) solid 4px;
+    color: var(--farba_textu);
+    margin-left: 20px;
+    width: 96%;
+    height: 40px;
+}
+.text_kontakt{
+    text-align: center;
+    align-items: center;
+    background-color: var(--farba_primarna);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px #181a18;
+}
+textarea{
+    height: 200px;
+}
 /*============================================================================*/
 /*==============================PORTFOLIO=====================================*/
 /*============================================================================*/
@@ -386,7 +396,7 @@ button{
     background-color: var(--farba_pozadia);
     border: var(--farba_border) solid 4px;
     color: var(--farba_textu);
-    width: 96%;
+    width: 100%;
     height: 40px;
 }
 
