@@ -22,6 +22,13 @@
     flex-direction: column;
     border-bottom: var(--farba_primarna) 4px solid;
 }
+.sekcia_uvod_div_2{
+    display: flex;
+    flex-direction: column;
+    border-bottom: var(--farba_primarna) 4px solid;
+}
+
+
 #pfp{
     border: var(--farba_primarna) 4px solid;
     border-radius: 14px;
@@ -71,11 +78,11 @@
     font-family: Titan One;
     letter-spacing: 3px;
     color: var(--farba_akcent);
-    -webkit-text-stroke: 1px var(--farba_akcent_3);
 }
 #text_o_mne_1{
     font-size: 60px;
     margin: 0px;    
+    border-width: 0;
 }
 #text_o_mne_2{
     font-size: 60px;
@@ -85,6 +92,14 @@
 #volam_sa{
     font-size: large;
     line-height: 32px;
+    background-color: var(--farba_primarna_3);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    border-top: var(--farba_primarna) solid 4px;
+    border-bottom: var(--farba_primarna) 4px solid;
+    line-height: 28px;
+    margin: 20px;
 }
 .obrazky{
     text-align: center;
@@ -270,8 +285,8 @@ a{
     box-shadow: 2px 2px 20px black;
 }
 #kontakt-banner:hover {
-        color: var(--farba_pozadia);
-        background-color: var(--farba_primarna_2);
+    color: var(--farba_pozadia);
+    background-color: var(--farba_primarna_2);
 }
 /*============================================================================*/
 /*==============================PORTFOLIO=====================================*/
@@ -284,7 +299,6 @@ a{
     font-family: Titan One;
     letter-spacing: 3px;
     color: var(--farba_akcent);
-    -webkit-text-stroke: 1px var(--farba_akcent_3);
 }
 .sekcia__portfolio{
     border-top: #191b19 solid 20px;
@@ -380,6 +394,10 @@ button:hover {
         color: var(--farba_pozadia);
         background-color: var(--farba_primarna_2);
 }
+.sekcia_2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 /*============================================================================*/
 /*==================================BODY======================================*/
 /*============================================================================*/
@@ -424,7 +442,7 @@ main{
 #pfp{
     width: 450px;
     margin: 20px;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 .div__pfp_hlavny_text{
     display: flex;
@@ -470,9 +488,6 @@ main{
     padding-left: 200px;
 }
 /*============================================================================*/
-
-
-
 .portfolio__flex{
     display: flex;
     flex-direction: row;
@@ -482,18 +497,57 @@ main{
 .portfolio__sekcia{
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 .nadpis__portfolio{
     text-align: start;
     margin-left: 60px;
     font-size: 100px;
 }
-
-
-
-
-
-
+.sekcia_uvod_div_2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#text_o_mne_1{
+    font-size: 100px;
+    margin-right: 20px;
+}
+#text_o_mne_2{
+    font-size: 100px;
+    margin-right: 20px;
+}
+.text_dozvedte_sa_viac{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.sekcia_zrucnosti{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 30px;
+}
+.zrucnosti{
+    padding: 10px;
+}
+.obrazky{
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 20px;
+}
+.ikona{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.o_mne_text_2{
+    font-size: 25px;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
 
 
 
