@@ -295,6 +295,14 @@ input , textarea{
     border-radius: 5px;
     box-shadow: 2px 2px 20px #181a18;
 }
+.text_kontakt_2{
+    text-align: center;
+    align-items: center;
+    background-color: var(--farba_primarna);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px #181a18;
+}
 textarea{
     height: 200px;
 }
@@ -590,8 +598,9 @@ main{
 }
 .text_kontakt{
     font-size: 20px;
-    padding-left: 850px;
-    padding-right: 850px;
+    padding-left: 400px;
+    padding-right: 400px;
+    margin-left: 50px;
 }
 .kontakt__link__div{
     display: flex;
@@ -599,17 +608,22 @@ main{
 }
 .kontakt__link{
     font-size: 30px;
-    padding-left: 230px;
-    padding-right: 230px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 button{
-    padding-left: 800px;
-    padding-right: 800px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 .odoslať__button{
     font-size: 20px;
 }
-
+.text_kontakt_2{
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-left: 50px;
+}
 
 
 
