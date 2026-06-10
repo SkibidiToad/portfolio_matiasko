@@ -298,6 +298,25 @@ input , textarea{
 textarea{
     height: 200px;
 }
+.sekcia__kontakt{
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    margin-bottom: 40px;
+}
+.kontakt__link{
+    background-color: var(--farba_border);
+    margin: 10px;
+    padding: 10px;
+    color: var(--farba_textu);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 /*============================================================================*/
 /*==============================PORTFOLIO=====================================*/
 /*============================================================================*/
@@ -404,7 +423,7 @@ button:hover {
         color: var(--farba_pozadia);
         background-color: var(--farba_primarna_2);
 }
-.sekcia_2{
+.sekcia__margin{
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -558,6 +577,53 @@ main{
     margin-left: 60px;
     margin-right: 60px;
 }
+/*============================================================================*/
+.text_kontakt_nadpis{
+    font-size: 100px;
+    text-align: start;
+    margin-left: 80px;
+}
+.sekcia__kontakt{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.text_kontakt{
+    font-size: 20px;
+    padding-left: 850px;
+    padding-right: 850px;
+}
+.kontakt__link__div{
+    display: flex;
+    flex-direction: row;
+}
+.kontakt__link{
+    font-size: 30px;
+    padding-left: 230px;
+    padding-right: 230px;
+}
+button{
+    padding-left: 800px;
+    padding-right: 800px;
+}
+.odoslať__button{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
